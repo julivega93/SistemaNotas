@@ -52,7 +52,7 @@
             <?php } ?>
               
             <?php if($this->session->flashdata('ERROR')){ ?>      
-                <div class="alert alert-danger">Los datos ingresados no son válidos.
+                <div class="alert alert-danger">El usuario y/o contraseña son incorrectos.
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
